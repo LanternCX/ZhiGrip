@@ -1,0 +1,15 @@
+[submodule "Control"]
+	path = Control
+	url = https://github.com/LanternCX/ZhiGrip-Control
+[submodule "Controller"]
+	path = Controller
+	url = https://github.com/LanternCX/ZhiGrip-Controller
+[submodule "3DParts"]
+	path = 3DParts
+	url = https://github.com/LanternCX/ZhiGrip-3DParts
+[submodule "Joystick"]
+	path = Joystick
+	url = https://github.com/LanternCX/ZhiGrip-Joystick
+[submodule "xiaozhi-server"]
+	path = xiaozhi-server
+	url = https://github.com/LanternCX/ZhiGrip-xiaozhi-server
