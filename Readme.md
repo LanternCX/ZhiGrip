@@ -59,6 +59,30 @@ git clone --recursive https://github.com/LanternCX/ZhiGrip.git
 git submodule update --init --recursive
 ```
 
+### 更新所有 Git 子模块
+
+当子模块仓库有更新时，可以在主项目中同步所有子模块：
+
+```bash
+# 拉取主仓库最新更新
+git pull origin main
+
+# 更新所有子模块到最新版本
+git submodule update --recursive --remote
+```
+
+这样可以确保主项目引用的所有子模块均为最新状态。
+
+## 许可证与贡献
+
+### 使用本代码
+
+使用本项目代码请遵守 **GNU General Public License v3.0 (GPL-3.0)** 协议。
+
+使用或修改本代码时，请遵循 GPL-3.0 的条款，并在分发时附带相同许可证。
+
+使用本代码或有合作or疑问，欢迎发邮件交流：caoxin@xysu.tech
+
 ### 提交贡献
 
 如果你希望贡献代码到子模块，请按以下流程操作：
@@ -93,17 +117,3 @@ git push origin feature/your-feature-name
 6. 在 GitHub 上对子模块仓库发起 **Pull Request（PR）**
 
    注意：PR 是针对子模块仓库，而不是主仓库。
-
-### 更新所有 Git 子模块
-
-当子模块仓库有更新时，可以在主项目中同步所有子模块：
-
-```bash
-# 拉取主仓库最新更新
-git pull origin main
-
-# 更新所有子模块到最新版本
-git submodule update --recursive --remote
-```
-
-这样可以确保主项目引用的所有子模块均为最新状态。

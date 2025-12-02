@@ -57,6 +57,30 @@ If you have already cloned the repo but submodules are not initialized or update
 git submodule update --init --recursive
 ```
 
+### Update All Git Submodules
+
+When submodules have updates, you can sync all submodules in the main project:
+
+```bash
+# Pull latest updates of main repository
+git pull origin main
+
+# Update all submodules to the latest version
+git submodule update --recursive --remote
+```
+
+This ensures that all submodules referenced by the main project are up to date.
+
+## License & Contribution
+
+### Using This Code
+
+Please comply with the **GNU General Public License v3.0 (GPL-3.0)** when using this project's code.
+
+If you use or modify the code, you must follow the terms of GPL-3.0 and distribute your work under the same license.
+
+If you use this code or have any questions or collaboration ideas, feel free to contact me via email: `caoxin@xysu.tech`
+
 ### Contributing
 
 If you want to contribute to a submodule, follow these steps:
@@ -88,17 +112,3 @@ git push origin feature/your-feature-name
 ```
 
 6. Create a **Pull Request (PR)** on the submodule repository (PR is for the submodule, not the main repo).
-
-### Update All Git Submodules
-
-When submodules have updates, you can sync all submodules in the main project:
-
-```bash
-# Pull latest updates of main repository
-git pull origin main
-
-# Update all submodules to the latest version
-git submodule update --recursive --remote
-```
-
-This ensures that all submodules referenced by the main project are up to date.
