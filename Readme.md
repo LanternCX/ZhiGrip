@@ -117,3 +117,9 @@ git push origin feature/your-feature-name
 6. 在 GitHub 上对子模块仓库发起 **Pull Request（PR）**
 
    注意：PR 是针对子模块仓库，而不是主仓库。
+
+## 其他文档
+
+1. [初赛报告](./docs/Report.md)
+2. [机械臂运动学解算](https://www.caoxin.xyz/index.php/archives/50/)
+3. [PPT](https://www.canva.cn/design/DAG6yuzZL9I/euldDkP9Nv4h0vfzjcehqg/edit?utm_content=DAG6yuzZL9I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)

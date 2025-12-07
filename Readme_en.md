@@ -112,3 +112,9 @@ git push origin feature/your-feature-name
 ```
 
 6. Create a **Pull Request (PR)** on the submodule repository (PR is for the submodule, not the main repo).
+
+## Other Documentation
+
+1. [Preliminary Report](./docs/Report.md)
+2. [Robotic Arm Kinematics Calculation](https://www.caoxin.xyz/index.php/archives/50/)
+3. [PPT](https://www.canva.cn/design/DAG6yuzZL9I/euldDkP9Nv4h0vfzjcehqg/edit?utm_content=DAG6yuzZL9I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
